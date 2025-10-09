@@ -6,7 +6,7 @@ app:
   # Set the build version ID to deploy for the "Build, deploy, and run" 
   # scenario. If the value is set to an empty string ("") the application
   # is not deployed.
-  version: ""
+  version: "0b009945-00cc-4fa4-b4d2-97c9e0aa288e"
   
   # Set the Maven coordinates of the Maven artifact to deploy for the 
   # "Deploy, and run" scenario.
@@ -74,7 +74,7 @@ app:
   # Set the name of the custom domain for the application.
   #host: my_custom_domain.io
   services:
-    - awsEndpointService: "com.amazonaws.vpce.us-east-1.vpce-svc-0b45e222d19c556ef"
+    - awsEndpointService: "com.amazonaws.vpce.us-east-1.vpce-svc-01f2a3b6a731f382b"
     # - amazonCloudWatch:
     #   arn: arn:aws:iam::282782922504:role/MCSP_T_G_SSRE_easej_serviceRole_clodwatchCrossAccount_mayank_Test3009202367
     #   logGroup: myLogGroupMayankSep25_Test_6_7
