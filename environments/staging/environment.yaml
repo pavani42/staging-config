@@ -74,7 +74,7 @@ app:
   # Set the name of the custom domain for the application.
   #host: my_custom_domain.io
   services:
-    - awsEndpointService: "com.amazonaws.vpce.us-east-1.vpce-svc-091c4b06e59cf974b"
+    - awsEndpointService: "com.amazonaws.vpce.us-east-1.vpce-svc-0fd3e18414c8b3d06"
     # - amazonCloudWatch:
     #   arn: arn:aws:iam::282782922504:role/MCSP_T_G_SSRE_easej_serviceRole_clodwatchCrossAccount_mayank_Test3009202367
     #   logGroup: myLogGroupMayankSep25_Test_6_7
