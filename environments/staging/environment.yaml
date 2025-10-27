@@ -76,8 +76,8 @@ app:
   services:
     # - awsEndpointService: "com.amazonaws.vpce.us-east-1.vpce-svc-03aa25dcc8478ab1f"
     - amazonCloudWatch:
-        arn: arn:aws:iam::592157396942:role/IBM_EASeJ_Service_20251003-0612-3626-4020-de74ef300d00
-        logGroup: myLogGroupoct27_Test
+       arn: arn:aws:iam::592157396942:role/IBM_EASeJ_Service_20251003-0612-3626-4020-de74ef300d00
+       logGroup: myLogGroupoct27_Test
 
   # Set a list of service bindings for the application. The bindings can be
   # provided in two ways: by providing the full crn value of the service 
