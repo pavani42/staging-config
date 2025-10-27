@@ -74,10 +74,10 @@ app:
   # Set the name of the custom domain for the application.
   #host: my_custom_domain.io
   services:
-    - awsEndpointService: "com.amazonaws.vpce.us-east-1.vpce-svc-0b45e222d19c556ef"
+    # - awsEndpointService: "com.amazonaws.vpce.us-east-1.vpce-svc-0b45e222d19c556ef"
     - amazonCloudWatch:
-       arn: arn:aws:iam::730006451940:role/MCSP_B_G_SSRE_easej_serviceRole_clodwatchCrossAccount_stg3
-       logGroup: myLogGroupoct16_Test_6_7
+       arn: arn:aws:iam::282782922504:role/IBM_EASeJ_Service_20251003-0612-3626-4020-de74ef300d00
+       logGroup: myLogGroupoct27_Test
 
   # Set a list of service bindings for the application. The bindings can be
   # provided in two ways: by providing the full crn value of the service 
